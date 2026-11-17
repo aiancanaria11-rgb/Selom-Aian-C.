@@ -1,0 +1,233 @@
+print("====================================================")
+print("       HELLO EVERYONE! GOOD MORNING!")
+print("              MY PYTHON TUTORIAL")
+print("====================================================")
+print()
+
+print("WHAT DO YOU WANT TO STUDY?")
+print("[1] INTRODUCTION TO PROGRAMMING")
+print("[2] BASIC SYNTAX")
+print("[3] ARITHMETIC OPERATIONS")
+
+chapter = input("Enter your chapter: ")
+print()
+
+# CHAPTER 1: INTRODUCTION TO PROGRAMMING
+if chapter == "1":
+
+    print("WHAT DO YOU WANT TO STUDY?")
+    print("[1] PYTHON PROGRAMMING")
+    print("[2] WHAT DO YOU NEED TO START PYTHON?")
+
+    topic = input("Enter your topic: ")
+    print()
+
+    if topic == "1":
+
+        print("WHAT IS PYTHON PROGRAMMING?")
+        print()
+        print("Python is a popular programming language")
+        print("used to develop software and applications.")
+        print("It helps computers perform tasks")
+        print("by following instructions written by programmers.")
+        print("It was created by Guido van Rossum in 1991.")
+        print()
+
+        print("EXAMPLE:")
+        print('print("Hello, baby!")')
+        print()
+        print("OUTPUT:")
+        print("Hello, baby!")
+
+    elif topic == "2":
+
+        print("WHAT DO YOU NEED TO START PYTHON PROGRAMMING?")
+        print()
+        print("1. COMPUTER OR LAPTOP")
+        print("Used to write, run, and test Python programs.")
+        print()
+        print("2. PYTHON INTERPRETER")
+        print("Allows your computer to understand Python code.")
+        print()
+        print("3. CODE EDITOR")
+        print("Used to write Python code, such as VS Code or IDLE.")
+        print()
+        print("4. BASIC PROGRAMMING KNOWLEDGE")
+        print("Learn variables, data types, input, and output.")
+        print()
+        print("5. INTERNET CONNECTION")
+        print("Helpful for downloading Python and learning coding.")
+
+    else:
+        print("Invalid input!")
+
+    # QUIZ
+    score = 0
+
+    print()
+    print("========================================")
+    print("       QUIZ 1: INTRODUCTION")
+    print("========================================")
+
+    print("1. What is programming?")
+    print("A. Playing games")
+    print("B. Giving instructions to a computer")
+    print("C. Watching videos")
+
+    answer = input("Your answer: ").upper()
+
+    if answer == "B":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is B.")
+
+    print()
+
+    print("2. Who created Python?")
+    print("A. Bill Gates")
+    print("B. Mark Zuckerberg")
+    print("C. Guido van Rossum")
+    print("D. Steve Jobs")
+
+    answer = input("Your answer: ").upper()
+
+    if answer == "C":
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is C.")
+
+    print()
+    print("========================================")
+    print("              QUIZ RESULT")
+    print("========================================")
+
+    print("Your score:", score, "/ 2")
+
+    if score == 2:
+        print("Excellent! Perfect score!")
+    elif score == 1:
+        print("Good job! Keep practicing!")
+    else:
+        print("Don't give up! Study and try again!")
+
+
+# CHAPTER 2: BASIC SYNTAX
+elif chapter == "2":
+
+    print("========================================")
+    print("              BASIC SYNTAX")
+    print("========================================")
+
+    print("WHAT DO YOU WANT TO STUDY?")
+    print("[1] PYTHON SYNTAX")
+    print("[2] PYTHON COMMENTS")
+    print("[3] Print statement")
+
+    lesson = input("Enter your lesson: ")
+    print()
+
+    if lesson == "1":
+
+        print("WHAT IS PYTHON SYNTAX?")
+        print()
+        print("Syntax refers to the set of rules")
+        print("that tells us how to correctly write")
+        print("a program in Python.")
+        print()
+
+        print("1. PYTHON IS CASE SENSITIVE")
+        print("Python treats uppercase and lowercase")
+        print("letters differently.")
+        print()
+
+        print("CORRECT EXAMPLE:")
+        print("name = 'John'")
+        print("print(name)")
+        print("OUTPUT: John")
+        print()
+
+        print("INCORRECT EXAMPLE:")
+        print("name = John")
+        print("ERROR! John needs quotation marks.")
+        print()
+
+    elif lesson == "2":
+
+        print("WHAT ARE PYTHON COMMENTS?")
+        print()
+        print("Comments are notes written inside")
+        print("a program to explain the code.")
+        print("Python does not execute comments.")
+        print()
+
+        print("EXAMPLE:")
+        print("# This is a comment")
+        print("print('Hello World')")
+        print()
+
+        print("OUTPUT:")
+        print("Hello World")
+
+    elif lesson == "3":
+        print("the print() function display information on the screen")
+        print("print the function that display outpu")
+        print("() parentheses that contain the information to be displayed")
+        print("value the text,numberm,value,or expression you want to display")
+        print()
+        print("EXAMPLE:")
+        print("print('Hello World')")
+        print("OUTPUT")
+        print("Hello World")
+
+    else:
+        print("Invalid lesson!")
+
+
+# CHAPTER 3: ARITHMETIC OPERATIONS
+elif chapter == "3":
+
+    print("========================================")
+    print("         ARITHMETIC OPERATIONS")
+    print("========================================")
+    print()
+    print("Arithmetic operation are symbols used to perform mathematical calvulatoins on number ")
+    print("they work the same way as the operators used in everyday mathematics")
+    print()
+    print("[1] Expressions in phyton ")
+    print("[2]  Python arithmetic operation")
+
+    lesson = input("Enter your lesson: ")
+    print()
+    if lesson == "1":
+        print("an expression is a combination of values,")
+        print("variables and operators thats  evaluate to a result")
+        print()
+        print("EXAMPLE")
+        print("a = 2")
+        print("b = 3")
+        print("c = 4")
+        print("a*b*c")
+        print("result 20")
+
+
+    elif lesson == "2":
+        print("operator  description      example   result")
+        print("  +       addition       5+3        8")
+        print("  -       subtraction      10-6       4")
+        print("  *       multiplication   7*2      14")
+        print("  /       division         15/3     5.0")
+        print(" //       floor division   17//3      5")
+        print(" %        modulus           10%3       1")
+        print(" **       exponentiation   2**3      8")
+        print()
+
+
+    else:
+      print("Invalid input! Please choose 1, 2, or 3.")
+
+print()
+print("========================================")
+print("       THANK YOU FOR USING MY TUTORIAL!")
+print("========================================")
